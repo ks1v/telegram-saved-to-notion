@@ -17,5 +17,5 @@ Import Telegram Saved messages into a Notion database. It creates separate pages
 
 1. [Telethon](https://github.com/LonamiWebs/Telethon)
 
-	> $ pip install telethon
+	> pip install telethon
 
