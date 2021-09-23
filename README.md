@@ -1,18 +1,21 @@
 # Telegram Saved Messages to a Notion Database
 
-# Dependences:
+Import Telegram Saved messages into a Notion database. It creates separate pages for each day and writes messages as time-tagged blocks. Start of each day is not a midnight but actual time when you slept according to a gaps in messages flow.
 
-1. [python telegram bot](https://github.com/python-telegram-bot/python-telegram-bot)
-	> $ pip install python-telegram-bot --upgrade
-
-TODO:
-- [ ] Python binding with Telegram
-- [ ] Load Saved Messages as a JSON file
+## TODO
+- [x] Python binding with Telegram
+- [x] Load Saved Messages as a JSON file
 - [ ] Python binding with Notion
 - [ ] Connect test Notion database
+- [ ] Create daily pages with messages in time-tagged blocks
 - [ ] Split Saved Messages by dates according night gap
 - [ ] Move links to message body
 - [ ] Load text-only messages into the test DB
 - [ ] See how to import messages containing media files
 
+## Dependences:
+
+1. [Telethon](https://github.com/LonamiWebs/Telethon)
+
+	> $ pip install telethon
 
