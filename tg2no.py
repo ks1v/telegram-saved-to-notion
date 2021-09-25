@@ -8,7 +8,9 @@ from datetime import datetime
 from telethon import TelegramClient, events, sync
 from telethon.tl.functions.messages import GetHistoryRequest
 from telethon.tl.types import PeerChannel
+from telethon.errors import SessionPasswordNeededError
 from pprint import pprint
+
 
 def checkAuth(client):
 	if not client.is_user_authorized():
