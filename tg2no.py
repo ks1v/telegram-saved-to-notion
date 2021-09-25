@@ -241,8 +241,6 @@ for col in ['dttm_unix', 'dttm_diff','hour','flg_gap','gap_hour']:
 
 
 
-client.stop()
-
 
 
 

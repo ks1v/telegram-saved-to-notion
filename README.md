@@ -5,26 +5,20 @@ Import Telegram Saved messages into a Notion database. It creates separate pages
 ## TODO
 - [x] Python binding with Telegram
 - [x] Load Saved messages as a JSON file
-- [x] Process Saved messages into a DataFrame
-- [x] Split Saved Messages by dates according night gap
+- [x] Process Saved messages into a DataFrame (retain essencial fields, download and link media)
+- [x] Split Saved messages by adjusted dates according to night gap in messages flow
 - [ ] Python binding with Notion
-- [ ] Connect test Notion database
+- [ ] Connect to test Notion database
 - [ ] Create daily pages with messages in time-tagged blocks
-
-- [ ] Move links to message body
-- [ ] Load text-only messages into the test DB
-- [ ] See how to import messages containing media files
+- [ ] Convert links to web bookmarks
+- [ ] Attach media files to pages
 
 ## Dependences:
 
 1. [Telethon](https://github.com/LonamiWebs/Telethon)
+1. [Pandas](https://github.com/pandas-dev/pandas)
 
-	> pip install telethon
-
-
-
-> ex.keys()
-> dict_keys(['url', 'forward', 'music', 'contact', 'location', 'file', 'image', 'video', 'sticker', 'text'])
+	> pip install telethon pandas
 
 
 
